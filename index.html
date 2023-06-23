@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Number Page</title>
+</head>
+<body>
+  <h1>Click the link to get a random number:</h1>
+  <a href="random_number.html">Generate Random Number</a>
+
+  <script>
+    function getRandomNumber() {
+      var numbers = [21, 82]; // Replace this with your own list of numbers
+      var randomNumber = numbers[Math.floor(Math.random() * numbers.length)];
+      return randomNumber;
+    }
+  </script>
+</body>
+</html>
